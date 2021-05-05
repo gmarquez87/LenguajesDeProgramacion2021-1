@@ -12,19 +12,19 @@ public class TestFecha {
 		f2=new Fecha(6,5,2021);
 		
 		/*Asignamos una fecha*/
-		f1.asigna(5, 5, 2021);
+		f1.asigna(7, 5, 2021);
 		
 		/*Mostrar la fecha f1*/
-		System.out.println("La fecha es: "+f1.toString());
+		//System.out.println("La fecha es: "+f1.toString());
 		
 		/*Mostrar el día de f1*/
-		System.out.println("El dia es: "+f1.obtieneDia());
+		//System.out.println("El dia es: "+f1.obtieneDia());
 		
 		/*Mostrar el mes de f1*/
-		System.out.println("El mes es: "+f1.obtieneMes());
+		//System.out.println("El mes es: "+f1.obtieneMes());
 		
 		/*Mostrar el año de f1*/
-		System.out.println("El anio es: "+f1.obtieneAnio());
+		//System.out.println("El anio es: "+f1.obtieneAnio());
 		
 		/*Determinar si f1=f2*/
 		if(f1.esIgual(f2)) {

@@ -33,7 +33,7 @@ public class Fecha {
 	
 	/*Método que retorna la fecha en un formato específico*/
 	public String toString() {
-		return dia+"/"+mes+"/"+anio;
+		return dia+"***"+mes+"***"+anio;
 	}
 	
 	/*Método que verifica si dos fechas son iguales*/
