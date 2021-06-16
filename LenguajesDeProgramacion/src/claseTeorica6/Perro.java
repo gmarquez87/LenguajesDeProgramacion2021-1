@@ -6,8 +6,8 @@ public class Perro extends Animal {
 
     private String raza;
 
-    public Perro(String nombre,String tipo_alimentacion,int edad,String raza){
-        super(nombre,tipo_alimentacion,edad);
+    public Perro(String nombre, String tipo_alimentacion, String raza){
+        super(nombre,tipo_alimentacion);
         this.raza = raza;
     }
 

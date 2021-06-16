@@ -4,8 +4,13 @@ package claseTeorica6;
 
 public class Animal {
 
-    private String nombre,tipo_alimentacion;
+    protected String nombre,tipo_alimentacion;
     private int edad;
+    
+    public Animal(String nombre,String tipo_alimentacion){
+        this.nombre = nombre;
+        this.tipo_alimentacion = tipo_alimentacion;
+    }
 
     public Animal(String nombre,String tipo_alimentacion,int edad){
         this.nombre = nombre;
